@@ -1,0 +1,24 @@
+{
+  "name": "cypress-testing",
+  "version": "1.0.0",
+  "description": "Repository for homeworks with Cypress",
+  "homepage": "https://github.com/Vladyslav-Riabets/cypress-testing#readme",
+  "bugs": {
+    "url": "https://github.com/Vladyslav-Riabets/cypress-testing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladyslav-Riabets/cypress-testing.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "npx cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^15.9.0"
+  }
+}
