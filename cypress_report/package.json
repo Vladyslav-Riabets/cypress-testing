@@ -1,0 +1,23 @@
+{
+  "name": "cypress_report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "npx cypress open",
+    "test:qauto": "cypress run --config-file cypress.config.qauto.js",
+    "test:qauto2": "cypress run --config-file cypress.config.qauto2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.9.0",
+    "dotenv": "^17.2.3",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.1.0",
+    "mochawesome-report-generator": "^6.3.2"
+  }
+}

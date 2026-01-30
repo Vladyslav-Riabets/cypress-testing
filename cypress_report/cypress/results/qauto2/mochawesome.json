@@ -1,0 +1,181 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-01-30T00:59:08.931Z",
+    "end": "2026-01-30T00:59:50.207Z",
+    "duration": 41276,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "cc4aaaa9-e01c-4d80-add0-2420f139c1b6",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test.cy.js",
+      "file": "cypress\\e2e\\test.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3b940d4b-91ea-4fb2-a7f7-5c9b61612ed7",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should add one car",
+              "fullTitle": "template spec should add one car",
+              "timedOut": null,
+              "duration": 8796,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_garage.default.carForm('BMW', '3', 1).checkAddedCar(\"BMW\", '3');",
+              "err": {},
+              "uuid": "0fa93ca1-b31b-4497-9273-c6ce6747fac6",
+              "parentUUID": "3b940d4b-91ea-4fb2-a7f7-5c9b61612ed7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should add several car",
+              "fullTitle": "template spec should add several car",
+              "timedOut": null,
+              "duration": 7953,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_garage.default.carForm('Audi', 'TT', 1).checkAddedCar(\"Audi\", 'TT').carForm('Ford', 'Focus', 1).checkAddedCar(\"Ford\", 'Focus');",
+              "err": {},
+              "uuid": "33a3d241-5217-4850-8794-7ff4a20e76f7",
+              "parentUUID": "3b940d4b-91ea-4fb2-a7f7-5c9b61612ed7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should delete car",
+              "fullTitle": "template spec should delete car",
+              "timedOut": null,
+              "duration": 8164,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_garage.default.carForm('Audi', 'TT', 1).removeCar();",
+              "err": {},
+              "uuid": "04fe1007-ad7d-4343-9e7f-100be2a73492",
+              "parentUUID": "3b940d4b-91ea-4fb2-a7f7-5c9b61612ed7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should add one expense",
+              "fullTitle": "template spec should add one expense",
+              "timedOut": null,
+              "duration": 6639,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_garage.default.carForm('Audi', 'TT', 1);\n_fuelExpenses.default.getPage().addExpenseBtn().expenseForm('Audi TT', '29.01.2026', 5, 10, 20).addBtn();",
+              "err": {},
+              "uuid": "1384c61d-e159-49dc-bc28-f6b4a7438997",
+              "parentUUID": "3b940d4b-91ea-4fb2-a7f7-5c9b61612ed7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should delete one expense",
+              "fullTitle": "template spec should delete one expense",
+              "timedOut": null,
+              "duration": 9005,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_garage.default.carForm('BMW', '3', 1);\n_fuelExpenses.default.getPage().addExpenseBtn().expenseForm('BMW 3', '29.01.2026', 5, 10, 20).addBtn().deleteExpense();",
+              "err": {},
+              "uuid": "1e9d2c6b-5fd2-4c67-9a0f-505c8f7f7500",
+              "parentUUID": "3b940d4b-91ea-4fb2-a7f7-5c9b61612ed7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0fa93ca1-b31b-4497-9273-c6ce6747fac6",
+            "33a3d241-5217-4850-8794-7ff4a20e76f7",
+            "04fe1007-ad7d-4343-9e7f-100be2a73492",
+            "1384c61d-e159-49dc-bc28-f6b4a7438997",
+            "1e9d2c6b-5fd2-4c67-9a0f-505c8f7f7500"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 40557,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results/qauto2",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.3.2"
+    }
+  }
+}
