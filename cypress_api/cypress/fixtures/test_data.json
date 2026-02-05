@@ -1,0 +1,12 @@
+{
+  "enter":{
+    "mileage": 20,
+    "liters": 10,
+    "totalCost": 15
+  },
+  "validation":{
+    "mileage": 20,
+    "liters": "10L",
+    "totalCost": "15.00 USD"
+  }
+}
